@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#violates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#violates">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Threat"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#CryptographyApplication"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#AsymmetricCipher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#AsymmetricCipher">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#CryptoBuildingBlock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Authenticity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Authenticity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#CryptographyApplication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Authorization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Authorization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#CryptographyApplication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Availability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Availability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#CryptographyApplication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Certificate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Certificate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#CryptoBuildingBlock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Cipher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Cipher"/>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Ciphertext -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Ciphertext">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Cipher"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Confidentiality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Confidentiality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#CryptographyApplication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#CryptoBuildingBlock -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#CryptoBuildingBlock"/>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#CryptographyApplication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#CryptographyApplication"/>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#DecryptionAlgorithm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#DecryptionAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Cipher"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#DenialOfService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#DenialOfService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Threat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#DigitalSignature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#DigitalSignature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#CryptoBuildingBlock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#ElevationOfPrivilege -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#ElevationOfPrivilege">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Threat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#EncryptionAlgorithm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#EncryptionAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Cipher"/>
+        <rdfs:comment>public</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Hash -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Hash">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#CryptoBuildingBlock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#InformationDisclosure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#InformationDisclosure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Threat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Integrity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Integrity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#CryptographyApplication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#ManyTimeKey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#ManyTimeKey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#SecretKey"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#NonRepudiability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#NonRepudiability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#CryptographyApplication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#OneTimeKey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#OneTimeKey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#SecretKey"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Plaintext -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Plaintext">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Cipher"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Repudiation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Repudiation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Threat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#SecretKey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#SecretKey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Cipher"/>
+        <rdfs:comment>secret</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Spoofing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Spoofing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Threat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#SymmetricCipher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#SymmetricCipher">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#CryptoBuildingBlock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Tampering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Tampering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Threat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Threat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/messe/ontologies/2020/10/untitled-ontology-6#Threat"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
